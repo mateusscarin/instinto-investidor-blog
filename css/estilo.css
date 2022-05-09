@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+    
+    body{
+        background-color: rgb(92, 100, 94);
+    }
+    
+    .bg-light{
+        background-image: linear-gradient(rgb(0, 0 ,0), rgb(78, 78, 78));
+    }
+    
+    .controlecarrossel{
+        margin-top: 3%;
+    }
+    
+    .btnprev{
+       float: right;
+       margin-right: 80%;
+    }
+    
+    .btnnext{
+        float: left;
+        margin-left: 80%;
+    }
+    
+    .carousel-indicators{
+        left: 0;
+        top: auto;
+        bottom: -70px;
+    }
+    
+    
+    
