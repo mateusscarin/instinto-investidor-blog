@@ -3,6 +3,22 @@
     padding: 0%;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #008037;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #005023;
+}
+
 body {
     background-image: url('../img/fundocarrossel.png');
 }
@@ -93,12 +109,12 @@ body {
     max-width: 10%;
 }
 
-.navegacaofooter ul li{
+.navegacaofooter ul li {
     margin-top: 2vh;
     list-style-type: none;
 }
 
-.navegacaofooter a{
+.navegacaofooter a {
     text-decoration: none;
     color: #008037;
     font-weight: 600;
@@ -112,7 +128,7 @@ body {
     width: 90%;
 }
 
-.footerdireta .textofooter{
+.footerdireta .textofooter {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -121,13 +137,13 @@ body {
     margin-top: 5vh;
 }
 
-.footerdireta  .textofooter p{
+.footerdireta .textofooter p {
     text-align: center;
     width: 70%;
     color: #FFF;
 }
 
-.footerdireta .iconesfooter{
+.footerdireta .iconesfooter {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -135,15 +151,23 @@ body {
     width: 100%;
 }
 
-.footerdireta .iconesfooter ul{
+.footerdireta .iconesfooter ul {
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 
-.footerdireta .iconesfooter ul li{
+.footerdireta .iconesfooter ul li {
     padding: 10px;
     color: #008037;
     list-style-type: none;
 }
 
+.texto ul li a {
+    text-decoration: none;
+    color: #008037;
+    font-weight: 600;
+}
 
+.texto ul li a:hover {
+    color: #00b850;
+}
