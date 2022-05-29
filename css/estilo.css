@@ -23,8 +23,17 @@ body {
     background-image: url('../img/fundocarrossel.png');
 }
 
-.bg-light {
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));
+.header {
+    background-color: #333;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.header a{
+    width: 15%;
 }
 
 .controlecarrossel {
@@ -89,6 +98,12 @@ body {
     font-weight: 600;
 }
 
+.copyrightfooter a:hover {
+    text-decoration: none;
+    color: #00b850;
+    font-weight: 600;
+}
+
 .copyrightfooter span {
     text-decoration: none;
     color: #ffffff;
@@ -125,7 +140,8 @@ body {
     display: grid;
     grid-template-columns: auto;
     align-items: center;
-    width: 90%;
+    width: 100%;
+    margin-left: -12%;
 }
 
 .footerdireta .textofooter {
@@ -154,12 +170,17 @@ body {
 .footerdireta .iconesfooter ul {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    padding-left: 0;
 }
 
-.footerdireta .iconesfooter ul li {
-    padding: 10px;
-    color: #008037;
+.footerdireta .iconesfooter ul li{
     list-style-type: none;
+}
+
+.footerdireta .iconesfooter ul li a i{
+    padding: 12px;
+    color: #008037;
+
 }
 
 .texto ul li a {
