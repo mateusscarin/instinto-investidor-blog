@@ -192,3 +192,13 @@ body {
 .texto ul li a:hover {
     color: #00b850;
 }
+
+.texto p a {
+    text-decoration: none;
+    color: #008037;
+    font-weight: 600;
+}
+
+.texto p a:hover {
+    color: #00b850;
+}
